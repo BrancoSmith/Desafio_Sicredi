@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Consulta de Restricoes por CPF" verbose="1">
+	<test name="Restricoes">
+		<classes>
+			<class name="restricoes.consultarRestricoesCpf" />
+		</classes>
+	</test>
+</suite>

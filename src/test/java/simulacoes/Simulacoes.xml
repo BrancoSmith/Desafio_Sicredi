@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Consulta Simulacoes" verbose="1">
+	<test name="Simulacoes">
+		<classes>
+			<class name="simulacoes.inserirSimulacoes" />
+			<class name="simulacoes.consultarSimulacoesExistentes" />
+			<class name="simulacoes.consultarSimulacoesExistentesPorCpf" />
+			<class name="simulacoes.alterarSimulacoes" />
+			<class name="simulacoes.deletarSimulacoes" />
+		</classes>
+	</test>
+</suite>
